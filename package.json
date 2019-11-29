@@ -1,0 +1,46 @@
+{
+  "name": "vue-paginater",
+  "version": "1.0.0",
+  "description": "YAN Paginator for Vue.js",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production  --progress --hide-modules --output ./dist/vue-paginater.js"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "pagination",
+    "paginate"
+  ],
+  "dependencies": {
+    "vue": "^2.5.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0",
+    "mini-css-extract-plugin": "^0.4.1"
+  },
+  "author": "Vahid Hedayati <badvad@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/vahidhedayati/vue-paginater.git",
+  "homepage": "https://github.com/vahidhedayati/vue-paginater",
+  "bugs": {
+    "url": "https://github.com/vahidhedayati/vue-paginater/issues"
+  }
+}
